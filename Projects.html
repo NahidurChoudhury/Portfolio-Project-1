@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .top-nav {
+      background-color: orange;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      color: white;
+    }
+
+    .top-nav button, .top-nav .nav-item {
+      background: none;
+      border: none;
+      color: white;
+      margin-right: 30px;
+      font-size: 19px;
+      cursor: pointer;
+    }
+
+    .top-nav .nav-item i {
+      margin-right: 10px;
+    }
+
+    .main {
+      display: flex;
+      flex: 1;
+      gap: 20px;
+    }
+
+    .sidebar {
+      width: 200px;
+      background-color: #f4f4f4;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .sidebar a {
+      display: block;
+      margin-bottom: 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .box {
+      background-color: #ddd;
+      height: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size:90px;
+      color: #555;
+    }
+
+    .creations-container {
+      padding: 20px;
+    }
+
+
+    .cat-box {
+      background-color: #fff;
+      border: 2px dashed #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <div class="top-nav">
+    <button onclick="toggleMenu()">☰ Menu</button>
+    <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Logo2.png" alt="Custom Icon" style="height:70px; vertical-align:middle;">
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <a href="index.html">Home</a>
+      <a href="aboutme.html">About Me</a>
+      <a href="contact.html">Contact</a>
+      <a href="Projects.html">Projects Inquiries</a>
+      <a href="#">Gallery</a>
+      <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-10%202.03.33%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+    </div>
+
+    <!-- Content Grid -->
+    <div class="creations-container">
+    <h1>My Creations</h1>
+    
+    <div class="category">
+      <h2>HTML</h2>
+      <ul>
+        <li>Names list Project - This is my first project in HTML and its about creating a table list with 25 people and the info in it.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-24%208.29.10%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I have written to make a gradient button that I learned about.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-24%208.43.50%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to make a glassmorphism effect, making text hidden</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-24%208.51.49%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to make a countdown for New Years eve</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-24%208.57.14%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to make a typing text animation that simulates a typewriter effect to animate text letter by letter, adding personality to headings.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-24%209.03.59%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to make a color palette display which is a simple visual layout, showing a curated set of brand or theme colors.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-24%209.06.01%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to make a Location Card that displays a location and live time, useful for showcasing geographic location or timezone awareness.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-24%209.13.04%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to make a styled quote box to highlight client feedback or endorsements in a visually appealing way.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-24%209.20.16%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+      </ul>
+    </div>
+    <div class="category">
+      <h2>Minecraft</h2>
+      <p>I’ve created custom builds, redstone contraptions, and mods that enhance gameplay and creativity.</p>
+      <ul>
+        <li>This is my first ever code written in MineCraft.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-24%209.20.16%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <li>Redstone Elevator System</li>
+        <li>Custom Texture Pack</li>
+      </ul>
+    </div>
+  
+    <div class="category">
+      <h2>JavaScript</h2>
+      <ul>
+        <li>This is code I have written when I first learned how to make functions in JavaScript.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-25%2012.14.13%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <li>This is a line of code is a number generator that acts like a dice.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-24%209.39.29%20PM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to make a simple loop that counts from 1 to 5.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-25%209.29.24%20AM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to make a resverse effect on the word "hello."</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-25%209.30.57%20AM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to make a cool looking ASCII banner.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-25%209.35.29%20AM.png" alt="Language Icon" style="width:40%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to print the entire alphabet.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-25%2011.01.19%20AM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to make a temperature converter, from celsius to fahrenheit.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-25%209.38.01%20AM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        <li>This is code I learned and written to make a random quote generator.</li>
+        <img src="https://uploads.onecompiler.io/43xqq2fv6/43xqq3ppc/Screenshot%202025-09-25%2011.03.41%20AM.png" alt="Language Icon" style="width:100%; margin-top:10px;">
+        <p> </p>
+        
+      </ul>
+    </div>
+  
+    <div class="category">
+      <h2>Python</h2>
+      <ul>
+        <li>Discord Bot</li>
+        <li>Simple Game with Pygame</li>
+        <li>File Organizer Script</li>
+      </ul>
+    </div>
+    <div class="category">
+      <h2>Photoshop</h2>
+      <p>I use Photoshop to design logos, edit photos, and create digital art with layers and effects.</p>
+      <ul>
+        <li>Logo Design for Portfolio</li>
+        <li>Photo Retouching</li>
+        <li>Poster for School Event</li>
+    </ul>
+  </div>
+</div>
+
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
